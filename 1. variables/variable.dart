@@ -11,4 +11,8 @@ void main(){
 print(telefonos);
   var apellido;
   print(apellido);
+
+  int? variableAceptaNull = null;
+  print(variableAceptaNull);
+  
 }
