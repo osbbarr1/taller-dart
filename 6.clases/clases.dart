@@ -9,6 +9,8 @@ class Persona{
 }
 
 void main(){
-  var persona = new Persona("Oscar", "Baquero", 38);
+//  var persona = new Persona("Oscar", "Baquero", 38);
+  
+    var persona =  Persona("Oscar", "Baquero", 38);
   print(persona);
 }
