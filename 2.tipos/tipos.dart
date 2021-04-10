@@ -38,9 +38,29 @@ else{
 
   var texto11 = r'Las comillas \n simples funcionan bien para cadenas literales.';
   print(texto11);
-  
+
   var texto8 = "texto interpolar";
   var numero = 50;
   var texto9 = "se interpola \'$texto8\' con el valor numero = $numero";
   print(texto9);
+
+
+  // listas
+
+ var lista1 = ["mazda", "chevrolet", "kia", 55];
+  List<String> lista2 = ["mazda", "chevrolet", "kia"];
+
+  print(lista1);
+  print(lista1.reversed);
+  print(lista1.first);
+  print(lista1.last);
+  print(lista1);
+  
+  lista1.add("Toyota");
+  //lista1.clear();
+  print(lista1);
+  
+  var lista3 =["Renault", ...lista1, ...lista2];
+  
+  print( lista3);
 }
