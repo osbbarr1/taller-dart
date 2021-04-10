@@ -1,6 +1,9 @@
 void main(){
   try{
-  print(obtenerNombre("Oscar"));   
+  print(obtenerNombre("Oscar")); 
+  } on FormatException catch(e){
+    print("hubo un error. FormatException");
+   
   }catch(e){
     print("hubo un error, contacte con el administrador ");
   }
