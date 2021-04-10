@@ -4,10 +4,12 @@ var resultado1 = obtenerNombre("Oscar");
 var resultado2 = obtenerNombre2("Oscar");
 var resultado3 = obtenerNombre3(valor : "Oscar andres", edad : null);
 var resultado4 = obtenerNombre4(valor : "Oscar andres", edad : 38);
+  var resultado5 = obtenerNombre5( "Oscar andres",  38, 180,"baquero" );
 print(resultado1);
 print(resultado2);
 print(resultado3);
 print(resultado4);
+  print(resultado5);
 }
 
  String obtenerNombre(String valor){
@@ -30,3 +32,12 @@ print(resultado4);
 
     return 'mi nombre es $valor y mi edad es $edad';
   }
+
+
+String obtenerNombre5(String valor , int edad , [int? estatura, String? apellido]){
+
+    return 'mi nombre es $valor y mi estatura $estatura';
+  }
+
+
+
