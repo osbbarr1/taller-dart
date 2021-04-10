@@ -35,6 +35,9 @@ else{
   print(texto5);
   print(texto6);
   print(texto7);
+
+  var texto11 = r'Las comillas \n simples funcionan bien para cadenas literales.';
+  print(texto11);
   
   var texto8 = "texto interpolar";
   var numero = 50;
