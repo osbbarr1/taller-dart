@@ -63,4 +63,24 @@ else{
   var lista3 =["Renault", ...lista1, ...lista2];
   
   print( lista3);
+
+
+   var lista4;
+  
+  var lista3 =["Renault", ...?lista1, ...?lista2, ...?lista4];
+  
+  print(lista3);
+
+
+
+   // set
+  
+  var set1 = {'Renault', 'Kia'};
+  set1.add('Toyota');
+  set1.add('Chevrolet');
+  
+  print(set1);
+
+
+  
 }
