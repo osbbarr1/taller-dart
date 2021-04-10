@@ -82,5 +82,24 @@ else{
   print(set1);
 
 
+    // map
   
+  var traslation = {
+    
+    'red': 'Rojo',
+    'blue': 'Azul',
+    'Green': 'Verde'
+  };
+  
+  traslation['black'] = 'negro';
+  
+  print(traslation);
+  
+  String llave = "black";
+  
+  traslation[llave] = "negro-negro";
+  
+  
+    print(traslation);
+    
 }
