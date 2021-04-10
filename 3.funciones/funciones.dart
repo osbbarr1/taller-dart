@@ -10,7 +10,16 @@ print(resultado2);
 print(resultado3);
 print(resultado4);
   print(resultado5);
+  
+  var resultado6 = miFunction("Oscar Andres Baquero");
+  
+  print(resultado6);
+  
 }
+
+var miFunction = (String valor){
+    return "Mi nombre es $valor";
+  };
 
  String obtenerNombre(String valor){
 
